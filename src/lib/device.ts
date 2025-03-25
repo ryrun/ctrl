@@ -29,7 +29,7 @@ import {
 
 const ADDR_IN = 3;
 const ADDR_OUT = 4;
-const TIMEOUT = 500;
+const TIMEOUT = 1000;
 
 export class Device {
   usbDevice: USBDevice;
