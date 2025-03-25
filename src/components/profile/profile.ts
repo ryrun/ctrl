@@ -20,7 +20,7 @@ import { sectionIsGyroAxis, sectionIsHome } from "lib/ctrl";
 import { SectionIndex } from "lib/ctrl";
 import { Device } from "lib/device";
 
-const MAX_FETCH_ATTEMPTS = 100;
+const MAX_FETCH_ATTEMPTS = 9;
 
 @Component({
   selector: "app-profile",
